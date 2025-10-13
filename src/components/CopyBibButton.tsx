@@ -1,24 +1,27 @@
 'use client'
-
 import {useState} from 'react'
-import {Check, Clipboard} from 'lucide-react'
+import {Check} from 'lucide-react'
 
 export function CopyBibButton({bibtex}: { bibtex: string }) {
     const [copied, setCopied] = useState(false)
+
+    async function handleClick() {
+        try {
+            await navigator.clipboard.writeText(bibtex)
+            setCopied(true)
+            setTimeout(() => setCopied(false), 1200)
+        } catch {}
+    }
+
     return (
-        <button
-            onClick={async () => {
-                await navigator.clipboard.writeText(bibtex)
-                setCopied(true)
-                setTimeout(() => setCopied(false), 1500)
-            }}
-            className="inline-flex items-center gap-2 text-sm px-3 py-1.5 rounded-lg border border-zinc-200 bg-white hover:bg-zinc-50"
-            aria-label="Copy BibTeX"
-            title="Copy BibTeX"
+        <a
             type="button"
+            onClick={handleClick}
+            title="Copy BibTeX"
+            aria-label="Copy BibTeX"
+            className={`inline-flex items-center gap-1 text-link text-sm cursor-pointer`}
         >
-            {copied ? <Check size={16}/> : <Clipboard size={16}/>}
-            {copied ? 'Copied' : 'Copy BibTeX'}
-        </button>
+            {copied ? <Check className="h-4 w-4" aria-hidden="true" /> : <span>BIB</span>}
+        </a>
     )
 }

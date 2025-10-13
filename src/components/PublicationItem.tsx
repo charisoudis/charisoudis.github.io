@@ -14,10 +14,10 @@ export function PublicationItem({pub}: { pub: Pub }) {
                 <h3 className="text-xl md:text-2xl font-semibold text-kth-marine mt-0.5">{pub.title}</h3>
                 <p className="text-sm">{pub.authors}</p>
                 <div className="flex flex-wrap gap-3 text-sm mt-3">
-                    {pub.doi && <a href={`https://doi.org/${pub.doi}`} target="_blank" rel="noreferrer">DOI</a>}
-                    {pub.url && <a href={pub.url} target="_blank" rel="noreferrer">Link</a>}
+                    {pub.doi && <a href={`https://doi.org/${pub.doi}`} className={"text-link"} target="_blank" rel="noreferrer">DOI</a>}
+                    {pub.url && <a href={pub.url} target="_blank" className={"text-link"} rel="noreferrer">Link</a>}
                     {pub.pdf && <a href={pub.pdf} target="_blank" rel="noreferrer">PDF</a>}
-                    {pub.code && <a href={pub.code} target="_blank" rel="noreferrer">Code</a>}
+                    {pub.code && <a href={pub.code} target="_blank" className={"text-link"} rel="noreferrer">Code</a>}
                     {pub.bibtex && <CopyBibButton bibtex={pub.bibtex}/>}
                 </div>
             </div>
