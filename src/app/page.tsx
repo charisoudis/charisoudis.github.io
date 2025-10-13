@@ -22,68 +22,62 @@ export default async function Home() {
                     <Picture id="profile" alt="Athanasios Charisoudis" sizes="112px" ratio={1} className="w-28 h-28 rounded-full overflow-hidden border border-zinc-200"/>
                 </div>
                 <div className="flex-1">
-                    <h1 className="text-2xl md:text-3xl font-bold text-kth-marine">Athanasios Charisoudis</h1>
+                    <h1 className="text-2xl md:text-3xl font-bold text-kth-marine">Hi, I’m Thanos</h1>
 
-                    <p className="mt-3 text-lg">
-                        I’m a Research Engineer at Hochschule Luzern working on computer vision, especially dynamic 3D representations,
-                        metric deep learning, and motion recovery in real-world environments. Previously, I completed an MSc in Machine
-                        Learning at KTH Royal Institute of Technology (Stockholm). Before that, I earned a Diploma in Electrical &amp;
-                        Computer Engineering from the Aristotle University of Thessaloniki, my hometown. I enjoy turning research ideas into practical, fast tools.
+                    <p className="mt-3 text-lg leading-relaxed">
+                        I’m a research engineer at Hochschule Luzern working on human-centric computer vision, including dynamic 3D representations,
+                        metric deep learning, and motion recovery. I like turning research ideas into fast, practical tools that people can use.
                     </p>
 
-                    <dl className="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-2 text-sm">
-                        <div className="flex gap-2">
-                            <dt className="font-semibold text-zinc-700 min-w-[7rem]">Name:</dt>
-                            <dd>Athanasios Charisoudis</dd>
-                        </div>
-                        <div className="flex gap-2">
-                            <dt className="font-semibold text-zinc-700 min-w-[7rem]">Nickname:</dt>
-                            <dd>Thanos</dd>
-                        </div>
-                        <div className="flex gap-2">
-                            <dt className="font-semibold text-zinc-700 min-w-[7rem]">Job:</dt>
-                            <dd>Research Engineer, Hochschule Luzern</dd>
-                        </div>
-                        <div className="flex gap-2">
-                            <dt className="font-semibold text-zinc-700 min-w-[7rem]">Citizenship:</dt>
-                            <dd>Greek</dd>
-                        </div>
-                        <div className="flex gap-2">
-                            <dt className="font-semibold text-zinc-700 min-w-[7rem]">Residence:</dt>
-                            <dd>Rotkreuz, Switzerland</dd>
-                        </div>
-                        <div className="flex gap-2">
-                            <dt className="font-semibold text-zinc-700 min-w-[7rem]">E-mail:</dt>
-                            <dd><a href="mailto:athanasios.charisoudis@ieee.org">athanasios.charisoudis@ieee.org</a></dd>
-                        </div>
-                    </dl>
+                    <p className="mt-3 text-lg leading-relaxed">
+                        Before this, I completed a MSc in Machine Learning at KTH Royal Institute of Technology, where I worked with <a href={"https://www.kth.se/profile/hedvig"} target={"_blank"} className={"text-link"}>Prof. Hedvig Kjellström</a>. Earlier, I earned a Diploma in Electrical &amp; Computer Engineering from Aristotle University of Thessaloniki, where I worked with <a href={"https://ece.auth.gr/en/staff/pericles-mitkas/"} target={"_blank"} className={"text-link"}>Prof. Pericles Mitkas</a>. I’m based in Rotkreuz, Switzerland, while my hometown is Thessaloniki, Greece.
+                    </p>
 
-                    <div className="mt-5 flex flex-wrap items-center gap-4">
+                    <p className="mt-3 text-lg leading-relaxed">
+                        Outside of work, I used to make electronic music and do graphic design. These days I relax with freelance web development, my go-to antistressant. When I’m away from the keyboard, I’m usually on a bike in the mountains or forests.
+                    </p>
+
+                    <div className="mt-5 flex flex-wrap items-center gap-3">
                         <a
                             href={withBase('/files/resume.pdf')}
                             download
-                            title="Download CV" aria-label="Download CV"
+                            title="Download CV"
+                            aria-label="Download CV"
                             className="inline-flex items-center rounded-lg bg-kth-light px-4 py-2 text-sm font-semibold shadow-sm hover:opacity-90"
                         >
                             CV
                         </a>
 
-                        <a href="https://github.com/charisoudis" title="GitHub" target="_blank" rel="noreferrer" aria-label="GitHub" className="inline-flex items-center rounded-lg bg-kth-light px-4 py-2 text-sm font-semibold shadow-sm hover:opacity-90">
-                            <Github className="w-5 h-5"/>
+                        <a
+                            href="mailto:athanasios.charisoudis@ieee.org"
+                            title="Email"
+                            aria-label="Email"
+                            className="inline-flex items-center rounded-lg bg-kth-light px-4 py-2 text-sm font-semibold shadow-sm hover:opacity-90"
+                        >
+                            Email
                         </a>
 
-                        <a href="https://linkedin.com/in/charisoudis" title="LinkedIn" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="inline-flex items-center rounded-lg bg-kth-light px-4 py-2 text-sm font-semibold shadow-sm hover:opacity-90">
-                            <Linkedin className="w-5 h-5"/>
+                        <a
+                            href="https://github.com/charisoudis"
+                            title="GitHub"
+                            target="_blank"
+                            rel="noreferrer"
+                            aria-label="GitHub"
+                            className="inline-flex items-center rounded-lg bg-kth-light px-4 py-2 text-sm font-semibold shadow-sm hover:opacity-90"
+                        >
+                            <Github className="w-5 h-5" />
                         </a>
 
-                        {/*<div className="ml-auto flex items-center gap-4">*/}
-                        {/*    <a href="https://github.com/charisoudis" target="_blank" rel="noreferrer" aria-label="GitHub">*/}
-                        {/*        <Github className="w-5 h-5"/>*/}
-                        {/*    </a>*/}
-                        {/*    <a href="https://linkedin.com/in/charisoudis" target="_blank" rel="noreferrer" aria-label="LinkedIn">*/}
-                        {/*        <Linkedin className="w-5 h-5"/>*/}
-                        {/*    </a>*/}
-                        {/*</div>*/}
+                        <a
+                            href="https://linkedin.com/in/charisoudis"
+                            title="LinkedIn"
+                            target="_blank"
+                            rel="noreferrer"
+                            aria-label="LinkedIn"
+                            className="inline-flex items-center rounded-lg bg-kth-light px-4 py-2 text-sm font-semibold shadow-sm hover:opacity-90"
+                        >
+                            <Linkedin className="w-5 h-5" />
+                        </a>
                     </div>
 
                     {interests.length ? (
