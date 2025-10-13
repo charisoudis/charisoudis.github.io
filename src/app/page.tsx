@@ -8,6 +8,9 @@ import resumeData from '@/../content/cv/resume.json'
 import {Picture} from "@/components/Picture";
 import {PublicationItem} from "@/components/PublicationItem";
 import {withBase} from "@/lib/paths";
+import type {Metadata} from 'next'
+
+export const metadata: Metadata = {title: {absolute: 'Athanasios Charisoudis'}}
 
 export default async function Home() {
     const projects = allProjects

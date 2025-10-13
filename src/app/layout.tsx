@@ -6,9 +6,18 @@ import {Providers} from './providers'
 import ClientProgress from '@/components/ClientProgress'
 import PageTransition from '@/components/PageTransition'
 import {Container} from '@/components/Container'
+import {Metadata} from "next";
 
 const figtree = Figtree({subsets: ['latin'], weight: ['400', '500', '600', '700', '800', '900'], variable: '--font-figtree'})
 const jet = JetBrains_Mono({subsets: ['latin'], variable: '--font-jet'})
+
+export const metadata: Metadata = {
+    title: {
+        default: 'Athanasios Charisoudis',
+        template: '%s - Athanasios Charisoudis',
+    },
+    description: 'Research engineer working on human-centric computer vision, dynamic 3D, and metric deep learning.',
+}
 
 export default function RootLayout({children}: { children: React.ReactNode }) {
     return (
