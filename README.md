@@ -1,5 +1,5 @@
 
-# al-folio · React (Next.js)
+# charisoudis.com (based on al-folio-react)
 
 A Next.js starter that mirrors **al-folio** structure and aesthetics, but with a modern React stack:
 - MDX + Contentlayer for content
