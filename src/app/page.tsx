@@ -26,11 +26,13 @@ export default async function Home() {
 
                     <p className="mt-3 text-lg leading-relaxed">
                         I’m a research engineer at Hochschule Luzern working on human-centric computer vision, including dynamic 3D representations,
-                        metric deep learning, and motion recovery. I like turning research ideas into fast, practical tools that people can use.
+                        metric deep learning, and motion recovery, under the advise of <a href={"https://www.hslu.ch/en/lucerne-university-of-applied-sciences-and-arts/about-us/people-finder/profile/?pid=5280"} target={"_blank"} className={"text-link"}>Prof. Aljosa Smolic</a>. I like turning research ideas into fast, practical tools that people can use.
                     </p>
 
                     <p className="mt-3 text-lg leading-relaxed">
-                        Before this, I completed a MSc in Machine Learning at KTH Royal Institute of Technology, where I worked with <a href={"https://www.kth.se/profile/hedvig"} target={"_blank"} className={"text-link"}>Prof. Hedvig Kjellström</a>. Earlier, I earned a Diploma in Electrical &amp; Computer Engineering from Aristotle University of Thessaloniki, where I worked with <a href={"https://ece.auth.gr/en/staff/pericles-mitkas/"} target={"_blank"} className={"text-link"}>Prof. Pericles Mitkas</a>. I’m based in Rotkreuz, Switzerland, while my hometown is Thessaloniki, Greece.
+                        Before this, I completed a MSc in Machine Learning at KTH Royal Institute of Technology, where I worked with <a href={"https://www.kth.se/profile/hedvig"} target={"_blank"} className={"text-link"}>Prof. Hedvig Kjellström</a>. Earlier, I earned a Diploma in Electrical &amp; Computer Engineering from Aristotle University of Thessaloniki, where I worked with <a href={"https://ece.auth.gr/en/staff/pericles-mitkas/"} target={"_blank"}
+                                                                                                                                                                                                                                                                                                                                                                                                 className={"text-link"}>Prof. Pericles Mitkas</a>. I’m based in Rotkreuz, Switzerland, while my
+                        hometown is Thessaloniki, Greece.
                     </p>
 
                     <p className="mt-3 text-lg leading-relaxed">
@@ -65,7 +67,7 @@ export default async function Home() {
                             aria-label="GitHub"
                             className="inline-flex items-center rounded-lg bg-kth-light px-4 py-2 text-sm font-semibold shadow-sm hover:opacity-90"
                         >
-                            <Github className="w-5 h-5" />
+                            <Github className="w-5 h-5"/>
                         </a>
 
                         <a
@@ -76,7 +78,7 @@ export default async function Home() {
                             aria-label="LinkedIn"
                             className="inline-flex items-center rounded-lg bg-kth-light px-4 py-2 text-sm font-semibold shadow-sm hover:opacity-90"
                         >
-                            <Linkedin className="w-5 h-5" />
+                            <Linkedin className="w-5 h-5"/>
                         </a>
                     </div>
 
