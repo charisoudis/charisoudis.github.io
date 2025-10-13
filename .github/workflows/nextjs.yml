@@ -10,6 +10,10 @@ permissions:
   pages: write
   id-token: write
 
+env:
+  NEXT_TELEMETRY_DISABLED: 1
+  CI: true
+
 concurrency:
   group: "pages"
   cancel-in-progress: true
@@ -32,16 +36,24 @@ jobs:
           node-version: 20
           cache: 'pnpm'
 
+      - name: Scan for Server Actions (debug)
+        run: |
+          grep -R "^['\"]use server['\"]" -n || true
+          grep -R "export const dynamic = 'force-dynamic'" -n || true
+          grep -R "route\.ts$" -n app || true
+
       - name: Install deps
         run: pnpm i --frozen-lockfile
 
-      # If you have an images preprocessor script, run it before the build:
       - name: Build images
+        if: ${{ hashFiles('scripts/build-images.ts') != '' }}
         run: pnpm run images:build
-        continue-on-error: false
 
-      - name: Build (static export)
+      - name: Build (Next.js)
         run: pnpm run build
+
+      - name: Export static HTML
+        run: pnpm run export
 
       - name: Add .nojekyll
         run: echo > out/.nojekyll

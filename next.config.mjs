@@ -3,17 +3,10 @@ import {withContentlayer} from 'next-contentlayer'
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    images: { unoptimized: true },
-    trailingSlash: true, // helps with GH Pages’ static hosting
-    // images: {
-    //     remotePatterns: [
-    //         {protocol: 'https', hostname: '**'}
-    //     ]
-    // },
+    images: {unoptimized: true},
+    trailingSlash: true,
     experimental: {
-        serverActions: {
-            allowedOrigins: ['*']
-        }
+        serverActions: false,
     },
     webpack(config) {
         config.ignoreWarnings = [
