@@ -1,5 +1,4 @@
-import Image from 'next/image'
-import {Github, Linkedin, FileText} from 'lucide-react'
+import {Github, Linkedin} from 'lucide-react'
 import Link from 'next/link'
 import {allProjects} from 'contentlayer/generated'
 import {Section} from '@/components/Section'
@@ -11,7 +10,10 @@ import {PublicationItem} from "@/components/PublicationItem";
 import {withBase} from "@/lib/paths";
 
 export default async function Home() {
-    const projects = allProjects.filter(p => p.featured).sort((a, b) => Number(b.year ?? 0) - Number(a.year ?? 0)).slice(0, 4)
+    const projects = allProjects
+        .filter(p => p.featured)
+        .sort((a, b) => (b.date ?? '').localeCompare(a.date ?? ''))
+        .slice(0, 4)
     const pubs = (await loadPublications()).slice(0, 3)
     const interests = (resumeData as any)?.interests?.flatMap((i: any) => i.keywords || [i.name]).filter(Boolean) || []
 
