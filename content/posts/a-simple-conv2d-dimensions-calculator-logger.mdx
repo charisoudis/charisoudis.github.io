@@ -1,0 +1,19 @@
+---
+title: A simple Conv2D dimensions calculator & logger
+date: 2020-11-01
+summary: Tiny utility to compute Conv2D/ConvTranspose2d output sizes layer-by-layer, log the shapes, and copy them into your notes or code reviews.
+tags: [pytorch, cnn, tooling]
+---
+
+import Conv2DCalcClient from '@/components/mdx/Conv2DCalcClient'
+
+When sketching CNNs, I often need quick feedback on spatial sizes after `Conv2d` (and sometimes `ConvTranspose2d`). Below is a small calculator that:
+- computes output height/width using the standard formulae,
+- lets you stack layers and see the full shape trace,
+- copies the log for PRs or design docs.
+
+> **Formulas (H×W)**
+> **Conv2d**: `Ho = floor((Hi + 2p - d*(k-1) - 1)/s + 1)`
+> **ConvTranspose2d** (output padding = 0): `Ho = (Hi - 1)*s - 2p + d*(k - 1) + 1`
+
+<Conv2DCalcClient/>

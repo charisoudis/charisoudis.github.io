@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    @apply bg-white text-zinc-800 antialiased text-[16px] md:text-[17px];
+}
+
+
+html.nav-loading {
+    cursor: progress;
+}
+
+h1 {
+    @apply font-sans text-2xl md:text-3xl font-extrabold tracking-tight text-kth-marine;
+}
+
+h2 {
+    @apply font-sans text-2xl md:text-3xl font-bold tracking-tight text-kth-marine;
+}
+
+h3 {
+    @apply font-sans text-xl md:text-2xl font-semibold tracking-tight text-zinc-900;
+}
+
+.typography {
+    @apply prose prose-zinc prose-base md:prose-lg leading-relaxed;
+}
+
+.typography h1 {
+    @apply text-2xl md:text-3xl font-extrabold text-kth-marine;
+}
+
+.typography h2 {
+    @apply text-2xl md:text-3xl font-bold text-kth-marine;
+}
+
+.typography h3 {
+    @apply text-xl md:text-2xl font-semibold;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .25s ease;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+
+a:hover {
+    background-size: 100% 2px;
+}
+
+.text-link {
+    color: #004791 !important;
+}
+
+a:visited {
+    color: inherit;
+}
+
+.typography a {
+    color: #004791;
+}
+
+.typography a:hover {
+    color: #004791;
+}
+
+.typography a:visited {
+    color: #004791;
+}
+
+.card {
+    @apply rounded-2xl border border-zinc-200 bg-white/90 backdrop-blur p-6 shadow-md;
+}
+
+.section-soft {
+    @apply bg-kth-light/60;
+}
+
+.skills-legend {
+    @apply flex flex-wrap gap-6 items-center text-sm mb-4;
+}
+
+.skills-legend span {
+    @apply inline-flex items-center gap-2;
+}
+
+.legend-box {
+    @apply inline-block w-3.5 h-3.5 rounded-sm align-middle;
+}
+
+.skill-list {
+    @apply grid gap-4;
+}
+
+.skill-item .name {
+    @apply text-sm font-medium mb-2;
+}
+
+.skill-bar {
+    @apply h-2 w-full rounded-full bg-zinc-200 overflow-hidden;
+}
+
+.skill-bar > .fill {
+    @apply h-full w-full;
+}
+
+.fill-very-strong {
+    background: #000061;
+}
+
+.fill-strong {
+    background: #516ca3;
+}
+
+.fill-medium {
+    background: #889bc2;
+}
+
+#nprogress {
+    pointer-events: none;
+}
+
+#nprogress .bar {
+    background: #ffffff;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.35);
+}
+
+#nprogress .peg {
+    display: none;
+}
+
+
+.page-transition-enter {
+    opacity: 0;
+    transform: translateY(6px);
+}
+
+.page-transition-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity .15s ease, transform .15s ease;
+}
+
+.page-transition-exit {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.page-transition-exit-active {
+    opacity: 0;
+    transform: translateY(-6px);
+    transition: opacity .12s ease, transform .12s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #nprogress .bar {
+        transition: none !important;
+    }
+
+    .page-transition-enter,
+    .page-transition-enter-active,
+    .page-transition-exit,
+    .page-transition-exit-active {
+        transition: none !important;
+        transform: none !important;
+    }
+}

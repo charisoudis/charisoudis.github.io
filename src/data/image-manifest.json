@@ -1,0 +1,1307 @@
+{
+  "profile": {
+    "width": 460,
+    "height": 460,
+    "aspect": 1,
+    "variants": {
+      "avif": [
+        {
+          "w": 160,
+          "src": "/media/profile/160.avif"
+        },
+        {
+          "w": 320,
+          "src": "/media/profile/320.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 160,
+          "src": "/media/profile/160.webp"
+        },
+        {
+          "w": 320,
+          "src": "/media/profile/320.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 160,
+          "src": "/media/profile/160.jpg"
+        },
+        {
+          "w": 320,
+          "src": "/media/profile/320.jpg"
+        }
+      ]
+    }
+  },
+  "moocs/cs231n-spring-2017": {
+    "width": 340,
+    "height": 280,
+    "aspect": 1.2142857142857142,
+    "variants": {
+      "avif": [
+        {
+          "w": 160,
+          "src": "/media/moocs/cs231n-spring-2017/160.avif"
+        },
+        {
+          "w": 320,
+          "src": "/media/moocs/cs231n-spring-2017/320.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 160,
+          "src": "/media/moocs/cs231n-spring-2017/160.webp"
+        },
+        {
+          "w": 320,
+          "src": "/media/moocs/cs231n-spring-2017/320.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 160,
+          "src": "/media/moocs/cs231n-spring-2017/160.jpg"
+        },
+        {
+          "w": 320,
+          "src": "/media/moocs/cs231n-spring-2017/320.jpg"
+        }
+      ]
+    }
+  },
+  "moocs/cs236-fall-2019": {
+    "width": 340,
+    "height": 280,
+    "aspect": 1.2142857142857142,
+    "variants": {
+      "avif": [
+        {
+          "w": 160,
+          "src": "/media/moocs/cs236-fall-2019/160.avif"
+        },
+        {
+          "w": 320,
+          "src": "/media/moocs/cs236-fall-2019/320.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 160,
+          "src": "/media/moocs/cs236-fall-2019/160.webp"
+        },
+        {
+          "w": 320,
+          "src": "/media/moocs/cs236-fall-2019/320.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 160,
+          "src": "/media/moocs/cs236-fall-2019/160.jpg"
+        },
+        {
+          "w": 320,
+          "src": "/media/moocs/cs236-fall-2019/320.jpg"
+        }
+      ]
+    }
+  },
+  "moocs/gans-specialization-coursera": {
+    "width": 340,
+    "height": 280,
+    "aspect": 1.2142857142857142,
+    "variants": {
+      "avif": [
+        {
+          "w": 160,
+          "src": "/media/moocs/gans-specialization-coursera/160.avif"
+        },
+        {
+          "w": 320,
+          "src": "/media/moocs/gans-specialization-coursera/320.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 160,
+          "src": "/media/moocs/gans-specialization-coursera/160.webp"
+        },
+        {
+          "w": 320,
+          "src": "/media/moocs/gans-specialization-coursera/320.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 160,
+          "src": "/media/moocs/gans-specialization-coursera/160.jpg"
+        },
+        {
+          "w": 320,
+          "src": "/media/moocs/gans-specialization-coursera/320.jpg"
+        }
+      ]
+    }
+  },
+  "moocs/ml4ig": {
+    "width": 340,
+    "height": 280,
+    "aspect": 1.2142857142857142,
+    "variants": {
+      "avif": [
+        {
+          "w": 160,
+          "src": "/media/moocs/ml4ig/160.avif"
+        },
+        {
+          "w": 320,
+          "src": "/media/moocs/ml4ig/320.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 160,
+          "src": "/media/moocs/ml4ig/160.webp"
+        },
+        {
+          "w": 320,
+          "src": "/media/moocs/ml4ig/320.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 160,
+          "src": "/media/moocs/ml4ig/160.jpg"
+        },
+        {
+          "w": 320,
+          "src": "/media/moocs/ml4ig/320.jpg"
+        }
+      ]
+    }
+  },
+  "moocs/nonlinear-systems": {
+    "width": 340,
+    "height": 280,
+    "aspect": 1.2142857142857142,
+    "variants": {
+      "avif": [
+        {
+          "w": 160,
+          "src": "/media/moocs/nonlinear-systems/160.avif"
+        },
+        {
+          "w": 320,
+          "src": "/media/moocs/nonlinear-systems/320.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 160,
+          "src": "/media/moocs/nonlinear-systems/160.webp"
+        },
+        {
+          "w": 320,
+          "src": "/media/moocs/nonlinear-systems/320.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 160,
+          "src": "/media/moocs/nonlinear-systems/160.jpg"
+        },
+        {
+          "w": 320,
+          "src": "/media/moocs/nonlinear-systems/320.jpg"
+        }
+      ]
+    }
+  },
+  "publications/charisoudis2023smae": {
+    "width": 1219,
+    "height": 675,
+    "aspect": 1.805925925925926,
+    "variants": {
+      "avif": [
+        {
+          "w": 160,
+          "src": "/media/publications/charisoudis2023smae/160.avif"
+        },
+        {
+          "w": 320,
+          "src": "/media/publications/charisoudis2023smae/320.avif"
+        },
+        {
+          "w": 640,
+          "src": "/media/publications/charisoudis2023smae/640.avif"
+        },
+        {
+          "w": 960,
+          "src": "/media/publications/charisoudis2023smae/960.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 160,
+          "src": "/media/publications/charisoudis2023smae/160.webp"
+        },
+        {
+          "w": 320,
+          "src": "/media/publications/charisoudis2023smae/320.webp"
+        },
+        {
+          "w": 640,
+          "src": "/media/publications/charisoudis2023smae/640.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/publications/charisoudis2023smae/960.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 160,
+          "src": "/media/publications/charisoudis2023smae/160.jpg"
+        },
+        {
+          "w": 320,
+          "src": "/media/publications/charisoudis2023smae/320.jpg"
+        },
+        {
+          "w": 640,
+          "src": "/media/publications/charisoudis2023smae/640.jpg"
+        },
+        {
+          "w": 960,
+          "src": "/media/publications/charisoudis2023smae/960.jpg"
+        }
+      ]
+    }
+  },
+  "publications/charisoudis2025cvmp": {
+    "width": 5940,
+    "height": 2125,
+    "aspect": 2.795294117647059,
+    "variants": {
+      "avif": [
+        {
+          "w": 160,
+          "src": "/media/publications/charisoudis2025cvmp/160.avif"
+        },
+        {
+          "w": 320,
+          "src": "/media/publications/charisoudis2025cvmp/320.avif"
+        },
+        {
+          "w": 640,
+          "src": "/media/publications/charisoudis2025cvmp/640.avif"
+        },
+        {
+          "w": 960,
+          "src": "/media/publications/charisoudis2025cvmp/960.avif"
+        },
+        {
+          "w": 1280,
+          "src": "/media/publications/charisoudis2025cvmp/1280.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 160,
+          "src": "/media/publications/charisoudis2025cvmp/160.webp"
+        },
+        {
+          "w": 320,
+          "src": "/media/publications/charisoudis2025cvmp/320.webp"
+        },
+        {
+          "w": 640,
+          "src": "/media/publications/charisoudis2025cvmp/640.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/publications/charisoudis2025cvmp/960.webp"
+        },
+        {
+          "w": 1280,
+          "src": "/media/publications/charisoudis2025cvmp/1280.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 160,
+          "src": "/media/publications/charisoudis2025cvmp/160.jpg"
+        },
+        {
+          "w": 320,
+          "src": "/media/publications/charisoudis2025cvmp/320.jpg"
+        },
+        {
+          "w": 640,
+          "src": "/media/publications/charisoudis2025cvmp/640.jpg"
+        },
+        {
+          "w": 960,
+          "src": "/media/publications/charisoudis2025cvmp/960.jpg"
+        },
+        {
+          "w": 1280,
+          "src": "/media/publications/charisoudis2025cvmp/1280.jpg"
+        }
+      ]
+    }
+  },
+  "projects/ad-hoc-p2p-network-with-raspberry-pi-s": {
+    "width": 559,
+    "height": 374,
+    "aspect": 1.4946524064171123,
+    "variants": {
+      "avif": [
+        {
+          "w": 160,
+          "src": "/media/projects/ad-hoc-p2p-network-with-raspberry-pi-s/160.avif"
+        },
+        {
+          "w": 320,
+          "src": "/media/projects/ad-hoc-p2p-network-with-raspberry-pi-s/320.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 160,
+          "src": "/media/projects/ad-hoc-p2p-network-with-raspberry-pi-s/160.webp"
+        },
+        {
+          "w": 320,
+          "src": "/media/projects/ad-hoc-p2p-network-with-raspberry-pi-s/320.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 160,
+          "src": "/media/projects/ad-hoc-p2p-network-with-raspberry-pi-s/160.jpg"
+        },
+        {
+          "w": 320,
+          "src": "/media/projects/ad-hoc-p2p-network-with-raspberry-pi-s/320.jpg"
+        }
+      ]
+    }
+  },
+  "projects/custom-aac-codec-matlab": {
+    "width": 1024,
+    "height": 800,
+    "aspect": 1.28,
+    "variants": {
+      "avif": [
+        {
+          "w": 160,
+          "src": "/media/projects/custom-aac-codec-matlab/160.avif"
+        },
+        {
+          "w": 320,
+          "src": "/media/projects/custom-aac-codec-matlab/320.avif"
+        },
+        {
+          "w": 640,
+          "src": "/media/projects/custom-aac-codec-matlab/640.avif"
+        },
+        {
+          "w": 960,
+          "src": "/media/projects/custom-aac-codec-matlab/960.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 160,
+          "src": "/media/projects/custom-aac-codec-matlab/160.webp"
+        },
+        {
+          "w": 320,
+          "src": "/media/projects/custom-aac-codec-matlab/320.webp"
+        },
+        {
+          "w": 640,
+          "src": "/media/projects/custom-aac-codec-matlab/640.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/projects/custom-aac-codec-matlab/960.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 160,
+          "src": "/media/projects/custom-aac-codec-matlab/160.jpg"
+        },
+        {
+          "w": 320,
+          "src": "/media/projects/custom-aac-codec-matlab/320.jpg"
+        },
+        {
+          "w": 640,
+          "src": "/media/projects/custom-aac-codec-matlab/640.jpg"
+        },
+        {
+          "w": 960,
+          "src": "/media/projects/custom-aac-codec-matlab/960.jpg"
+        }
+      ]
+    }
+  },
+  "projects/diploma-thesis-gans-for-pose-style-selection-in-fashion": {
+    "width": 640,
+    "height": 640,
+    "aspect": 1,
+    "variants": {
+      "avif": [
+        {
+          "w": 160,
+          "src": "/media/projects/diploma-thesis-gans-for-pose-style-selection-in-fashion/160.avif"
+        },
+        {
+          "w": 320,
+          "src": "/media/projects/diploma-thesis-gans-for-pose-style-selection-in-fashion/320.avif"
+        },
+        {
+          "w": 640,
+          "src": "/media/projects/diploma-thesis-gans-for-pose-style-selection-in-fashion/640.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 160,
+          "src": "/media/projects/diploma-thesis-gans-for-pose-style-selection-in-fashion/160.webp"
+        },
+        {
+          "w": 320,
+          "src": "/media/projects/diploma-thesis-gans-for-pose-style-selection-in-fashion/320.webp"
+        },
+        {
+          "w": 640,
+          "src": "/media/projects/diploma-thesis-gans-for-pose-style-selection-in-fashion/640.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 160,
+          "src": "/media/projects/diploma-thesis-gans-for-pose-style-selection-in-fashion/160.jpg"
+        },
+        {
+          "w": 320,
+          "src": "/media/projects/diploma-thesis-gans-for-pose-style-selection-in-fashion/320.jpg"
+        },
+        {
+          "w": 640,
+          "src": "/media/projects/diploma-thesis-gans-for-pose-style-selection-in-fashion/640.jpg"
+        }
+      ]
+    }
+  },
+  "projects/full-stack-development-eurotechnik": {
+    "width": 650,
+    "height": 650,
+    "aspect": 1,
+    "variants": {
+      "avif": [
+        {
+          "w": 160,
+          "src": "/media/projects/full-stack-development-eurotechnik/160.avif"
+        },
+        {
+          "w": 320,
+          "src": "/media/projects/full-stack-development-eurotechnik/320.avif"
+        },
+        {
+          "w": 640,
+          "src": "/media/projects/full-stack-development-eurotechnik/640.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 160,
+          "src": "/media/projects/full-stack-development-eurotechnik/160.webp"
+        },
+        {
+          "w": 320,
+          "src": "/media/projects/full-stack-development-eurotechnik/320.webp"
+        },
+        {
+          "w": 640,
+          "src": "/media/projects/full-stack-development-eurotechnik/640.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 160,
+          "src": "/media/projects/full-stack-development-eurotechnik/160.jpg"
+        },
+        {
+          "w": 320,
+          "src": "/media/projects/full-stack-development-eurotechnik/320.jpg"
+        },
+        {
+          "w": 640,
+          "src": "/media/projects/full-stack-development-eurotechnik/640.jpg"
+        }
+      ]
+    }
+  },
+  "projects/gans-for-biological-image-synthesis": {
+    "width": 907,
+    "height": 846,
+    "aspect": 1.0721040189125295,
+    "variants": {
+      "avif": [
+        {
+          "w": 160,
+          "src": "/media/projects/gans-for-biological-image-synthesis/160.avif"
+        },
+        {
+          "w": 320,
+          "src": "/media/projects/gans-for-biological-image-synthesis/320.avif"
+        },
+        {
+          "w": 640,
+          "src": "/media/projects/gans-for-biological-image-synthesis/640.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 160,
+          "src": "/media/projects/gans-for-biological-image-synthesis/160.webp"
+        },
+        {
+          "w": 320,
+          "src": "/media/projects/gans-for-biological-image-synthesis/320.webp"
+        },
+        {
+          "w": 640,
+          "src": "/media/projects/gans-for-biological-image-synthesis/640.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 160,
+          "src": "/media/projects/gans-for-biological-image-synthesis/160.jpg"
+        },
+        {
+          "w": 320,
+          "src": "/media/projects/gans-for-biological-image-synthesis/320.jpg"
+        },
+        {
+          "w": 640,
+          "src": "/media/projects/gans-for-biological-image-synthesis/640.jpg"
+        }
+      ]
+    }
+  },
+  "projects/master-s-thesis-monocular-dynamic-motion-capture": {
+    "width": 2785,
+    "height": 901,
+    "aspect": 3.091009988901221,
+    "variants": {
+      "avif": [
+        {
+          "w": 160,
+          "src": "/media/projects/master-s-thesis-monocular-dynamic-motion-capture/160.avif"
+        },
+        {
+          "w": 320,
+          "src": "/media/projects/master-s-thesis-monocular-dynamic-motion-capture/320.avif"
+        },
+        {
+          "w": 640,
+          "src": "/media/projects/master-s-thesis-monocular-dynamic-motion-capture/640.avif"
+        },
+        {
+          "w": 960,
+          "src": "/media/projects/master-s-thesis-monocular-dynamic-motion-capture/960.avif"
+        },
+        {
+          "w": 1280,
+          "src": "/media/projects/master-s-thesis-monocular-dynamic-motion-capture/1280.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 160,
+          "src": "/media/projects/master-s-thesis-monocular-dynamic-motion-capture/160.webp"
+        },
+        {
+          "w": 320,
+          "src": "/media/projects/master-s-thesis-monocular-dynamic-motion-capture/320.webp"
+        },
+        {
+          "w": 640,
+          "src": "/media/projects/master-s-thesis-monocular-dynamic-motion-capture/640.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/projects/master-s-thesis-monocular-dynamic-motion-capture/960.webp"
+        },
+        {
+          "w": 1280,
+          "src": "/media/projects/master-s-thesis-monocular-dynamic-motion-capture/1280.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 160,
+          "src": "/media/projects/master-s-thesis-monocular-dynamic-motion-capture/160.jpg"
+        },
+        {
+          "w": 320,
+          "src": "/media/projects/master-s-thesis-monocular-dynamic-motion-capture/320.jpg"
+        },
+        {
+          "w": 640,
+          "src": "/media/projects/master-s-thesis-monocular-dynamic-motion-capture/640.jpg"
+        },
+        {
+          "w": 960,
+          "src": "/media/projects/master-s-thesis-monocular-dynamic-motion-capture/960.jpg"
+        },
+        {
+          "w": 1280,
+          "src": "/media/projects/master-s-thesis-monocular-dynamic-motion-capture/1280.jpg"
+        }
+      ]
+    }
+  },
+  "projects/video-time-series-analysis": {
+    "width": 640,
+    "height": 640,
+    "aspect": 1,
+    "variants": {
+      "avif": [
+        {
+          "w": 160,
+          "src": "/media/projects/video-time-series-analysis/160.avif"
+        },
+        {
+          "w": 320,
+          "src": "/media/projects/video-time-series-analysis/320.avif"
+        },
+        {
+          "w": 640,
+          "src": "/media/projects/video-time-series-analysis/640.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 160,
+          "src": "/media/projects/video-time-series-analysis/160.webp"
+        },
+        {
+          "w": 320,
+          "src": "/media/projects/video-time-series-analysis/320.webp"
+        },
+        {
+          "w": 640,
+          "src": "/media/projects/video-time-series-analysis/640.webp"
+        }
+      ],
+      "jpg": [
+        {
+          "w": 160,
+          "src": "/media/projects/video-time-series-analysis/160.jpg"
+        },
+        {
+          "w": 320,
+          "src": "/media/projects/video-time-series-analysis/320.jpg"
+        },
+        {
+          "w": 640,
+          "src": "/media/projects/video-time-series-analysis/640.jpg"
+        }
+      ]
+    }
+  },
+  "interests/deep-learning": {
+    "width": 397,
+    "height": 419,
+    "aspect": 0.9474940334128878,
+    "variants": {
+      "avif": [
+        {
+          "w": 24,
+          "src": "/media/interests/deep-learning/24.avif"
+        },
+        {
+          "w": 32,
+          "src": "/media/interests/deep-learning/32.avif"
+        },
+        {
+          "w": 36,
+          "src": "/media/interests/deep-learning/36.avif"
+        },
+        {
+          "w": 40,
+          "src": "/media/interests/deep-learning/40.avif"
+        },
+        {
+          "w": 48,
+          "src": "/media/interests/deep-learning/48.avif"
+        },
+        {
+          "w": 64,
+          "src": "/media/interests/deep-learning/64.avif"
+        },
+        {
+          "w": 72,
+          "src": "/media/interests/deep-learning/72.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 24,
+          "src": "/media/interests/deep-learning/24.webp"
+        },
+        {
+          "w": 32,
+          "src": "/media/interests/deep-learning/32.webp"
+        },
+        {
+          "w": 36,
+          "src": "/media/interests/deep-learning/36.webp"
+        },
+        {
+          "w": 40,
+          "src": "/media/interests/deep-learning/40.webp"
+        },
+        {
+          "w": 48,
+          "src": "/media/interests/deep-learning/48.webp"
+        },
+        {
+          "w": 64,
+          "src": "/media/interests/deep-learning/64.webp"
+        },
+        {
+          "w": 72,
+          "src": "/media/interests/deep-learning/72.webp"
+        }
+      ],
+      "png": [
+        {
+          "w": 24,
+          "src": "/media/interests/deep-learning/24.png"
+        },
+        {
+          "w": 32,
+          "src": "/media/interests/deep-learning/32.png"
+        },
+        {
+          "w": 36,
+          "src": "/media/interests/deep-learning/36.png"
+        },
+        {
+          "w": 40,
+          "src": "/media/interests/deep-learning/40.png"
+        },
+        {
+          "w": 48,
+          "src": "/media/interests/deep-learning/48.png"
+        },
+        {
+          "w": 64,
+          "src": "/media/interests/deep-learning/64.png"
+        },
+        {
+          "w": 72,
+          "src": "/media/interests/deep-learning/72.png"
+        }
+      ]
+    }
+  },
+  "interests/generative-models": {
+    "width": 446,
+    "height": 418,
+    "aspect": 1.0669856459330143,
+    "variants": {
+      "avif": [
+        {
+          "w": 24,
+          "src": "/media/interests/generative-models/24.avif"
+        },
+        {
+          "w": 32,
+          "src": "/media/interests/generative-models/32.avif"
+        },
+        {
+          "w": 36,
+          "src": "/media/interests/generative-models/36.avif"
+        },
+        {
+          "w": 40,
+          "src": "/media/interests/generative-models/40.avif"
+        },
+        {
+          "w": 48,
+          "src": "/media/interests/generative-models/48.avif"
+        },
+        {
+          "w": 64,
+          "src": "/media/interests/generative-models/64.avif"
+        },
+        {
+          "w": 72,
+          "src": "/media/interests/generative-models/72.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 24,
+          "src": "/media/interests/generative-models/24.webp"
+        },
+        {
+          "w": 32,
+          "src": "/media/interests/generative-models/32.webp"
+        },
+        {
+          "w": 36,
+          "src": "/media/interests/generative-models/36.webp"
+        },
+        {
+          "w": 40,
+          "src": "/media/interests/generative-models/40.webp"
+        },
+        {
+          "w": 48,
+          "src": "/media/interests/generative-models/48.webp"
+        },
+        {
+          "w": 64,
+          "src": "/media/interests/generative-models/64.webp"
+        },
+        {
+          "w": 72,
+          "src": "/media/interests/generative-models/72.webp"
+        }
+      ],
+      "png": [
+        {
+          "w": 24,
+          "src": "/media/interests/generative-models/24.png"
+        },
+        {
+          "w": 32,
+          "src": "/media/interests/generative-models/32.png"
+        },
+        {
+          "w": 36,
+          "src": "/media/interests/generative-models/36.png"
+        },
+        {
+          "w": 40,
+          "src": "/media/interests/generative-models/40.png"
+        },
+        {
+          "w": 48,
+          "src": "/media/interests/generative-models/48.png"
+        },
+        {
+          "w": 64,
+          "src": "/media/interests/generative-models/64.png"
+        },
+        {
+          "w": 72,
+          "src": "/media/interests/generative-models/72.png"
+        }
+      ]
+    }
+  },
+  "interests/humans": {
+    "width": 290,
+    "height": 290,
+    "aspect": 1,
+    "variants": {
+      "avif": [
+        {
+          "w": 24,
+          "src": "/media/interests/humans/24.avif"
+        },
+        {
+          "w": 32,
+          "src": "/media/interests/humans/32.avif"
+        },
+        {
+          "w": 36,
+          "src": "/media/interests/humans/36.avif"
+        },
+        {
+          "w": 40,
+          "src": "/media/interests/humans/40.avif"
+        },
+        {
+          "w": 48,
+          "src": "/media/interests/humans/48.avif"
+        },
+        {
+          "w": 64,
+          "src": "/media/interests/humans/64.avif"
+        },
+        {
+          "w": 72,
+          "src": "/media/interests/humans/72.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 24,
+          "src": "/media/interests/humans/24.webp"
+        },
+        {
+          "w": 32,
+          "src": "/media/interests/humans/32.webp"
+        },
+        {
+          "w": 36,
+          "src": "/media/interests/humans/36.webp"
+        },
+        {
+          "w": 40,
+          "src": "/media/interests/humans/40.webp"
+        },
+        {
+          "w": 48,
+          "src": "/media/interests/humans/48.webp"
+        },
+        {
+          "w": 64,
+          "src": "/media/interests/humans/64.webp"
+        },
+        {
+          "w": 72,
+          "src": "/media/interests/humans/72.webp"
+        }
+      ],
+      "png": [
+        {
+          "w": 24,
+          "src": "/media/interests/humans/24.png"
+        },
+        {
+          "w": 32,
+          "src": "/media/interests/humans/32.png"
+        },
+        {
+          "w": 36,
+          "src": "/media/interests/humans/36.png"
+        },
+        {
+          "w": 40,
+          "src": "/media/interests/humans/40.png"
+        },
+        {
+          "w": 48,
+          "src": "/media/interests/humans/48.png"
+        },
+        {
+          "w": 64,
+          "src": "/media/interests/humans/64.png"
+        },
+        {
+          "w": 72,
+          "src": "/media/interests/humans/72.png"
+        }
+      ]
+    }
+  },
+  "interests/intelligent-robots": {
+    "width": 401,
+    "height": 421,
+    "aspect": 0.9524940617577197,
+    "variants": {
+      "avif": [
+        {
+          "w": 24,
+          "src": "/media/interests/intelligent-robots/24.avif"
+        },
+        {
+          "w": 32,
+          "src": "/media/interests/intelligent-robots/32.avif"
+        },
+        {
+          "w": 36,
+          "src": "/media/interests/intelligent-robots/36.avif"
+        },
+        {
+          "w": 40,
+          "src": "/media/interests/intelligent-robots/40.avif"
+        },
+        {
+          "w": 48,
+          "src": "/media/interests/intelligent-robots/48.avif"
+        },
+        {
+          "w": 64,
+          "src": "/media/interests/intelligent-robots/64.avif"
+        },
+        {
+          "w": 72,
+          "src": "/media/interests/intelligent-robots/72.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 24,
+          "src": "/media/interests/intelligent-robots/24.webp"
+        },
+        {
+          "w": 32,
+          "src": "/media/interests/intelligent-robots/32.webp"
+        },
+        {
+          "w": 36,
+          "src": "/media/interests/intelligent-robots/36.webp"
+        },
+        {
+          "w": 40,
+          "src": "/media/interests/intelligent-robots/40.webp"
+        },
+        {
+          "w": 48,
+          "src": "/media/interests/intelligent-robots/48.webp"
+        },
+        {
+          "w": 64,
+          "src": "/media/interests/intelligent-robots/64.webp"
+        },
+        {
+          "w": 72,
+          "src": "/media/interests/intelligent-robots/72.webp"
+        }
+      ],
+      "png": [
+        {
+          "w": 24,
+          "src": "/media/interests/intelligent-robots/24.png"
+        },
+        {
+          "w": 32,
+          "src": "/media/interests/intelligent-robots/32.png"
+        },
+        {
+          "w": 36,
+          "src": "/media/interests/intelligent-robots/36.png"
+        },
+        {
+          "w": 40,
+          "src": "/media/interests/intelligent-robots/40.png"
+        },
+        {
+          "w": 48,
+          "src": "/media/interests/intelligent-robots/48.png"
+        },
+        {
+          "w": 64,
+          "src": "/media/interests/intelligent-robots/64.png"
+        },
+        {
+          "w": 72,
+          "src": "/media/interests/intelligent-robots/72.png"
+        }
+      ]
+    }
+  },
+  "interests/php-laravel": {
+    "width": 342,
+    "height": 325,
+    "aspect": 1.0523076923076924,
+    "variants": {
+      "avif": [
+        {
+          "w": 24,
+          "src": "/media/interests/php-laravel/24.avif"
+        },
+        {
+          "w": 32,
+          "src": "/media/interests/php-laravel/32.avif"
+        },
+        {
+          "w": 36,
+          "src": "/media/interests/php-laravel/36.avif"
+        },
+        {
+          "w": 40,
+          "src": "/media/interests/php-laravel/40.avif"
+        },
+        {
+          "w": 48,
+          "src": "/media/interests/php-laravel/48.avif"
+        },
+        {
+          "w": 64,
+          "src": "/media/interests/php-laravel/64.avif"
+        },
+        {
+          "w": 72,
+          "src": "/media/interests/php-laravel/72.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 24,
+          "src": "/media/interests/php-laravel/24.webp"
+        },
+        {
+          "w": 32,
+          "src": "/media/interests/php-laravel/32.webp"
+        },
+        {
+          "w": 36,
+          "src": "/media/interests/php-laravel/36.webp"
+        },
+        {
+          "w": 40,
+          "src": "/media/interests/php-laravel/40.webp"
+        },
+        {
+          "w": 48,
+          "src": "/media/interests/php-laravel/48.webp"
+        },
+        {
+          "w": 64,
+          "src": "/media/interests/php-laravel/64.webp"
+        },
+        {
+          "w": 72,
+          "src": "/media/interests/php-laravel/72.webp"
+        }
+      ],
+      "png": [
+        {
+          "w": 24,
+          "src": "/media/interests/php-laravel/24.png"
+        },
+        {
+          "w": 32,
+          "src": "/media/interests/php-laravel/32.png"
+        },
+        {
+          "w": 36,
+          "src": "/media/interests/php-laravel/36.png"
+        },
+        {
+          "w": 40,
+          "src": "/media/interests/php-laravel/40.png"
+        },
+        {
+          "w": 48,
+          "src": "/media/interests/php-laravel/48.png"
+        },
+        {
+          "w": 64,
+          "src": "/media/interests/php-laravel/64.png"
+        },
+        {
+          "w": 72,
+          "src": "/media/interests/php-laravel/72.png"
+        }
+      ]
+    }
+  },
+  "interests/tdd": {
+    "width": 200,
+    "height": 200,
+    "aspect": 1,
+    "variants": {
+      "avif": [
+        {
+          "w": 24,
+          "src": "/media/interests/tdd/24.avif"
+        },
+        {
+          "w": 32,
+          "src": "/media/interests/tdd/32.avif"
+        },
+        {
+          "w": 36,
+          "src": "/media/interests/tdd/36.avif"
+        },
+        {
+          "w": 40,
+          "src": "/media/interests/tdd/40.avif"
+        },
+        {
+          "w": 48,
+          "src": "/media/interests/tdd/48.avif"
+        },
+        {
+          "w": 64,
+          "src": "/media/interests/tdd/64.avif"
+        },
+        {
+          "w": 72,
+          "src": "/media/interests/tdd/72.avif"
+        }
+      ],
+      "webp": [
+        {
+          "w": 24,
+          "src": "/media/interests/tdd/24.webp"
+        },
+        {
+          "w": 32,
+          "src": "/media/interests/tdd/32.webp"
+        },
+        {
+          "w": 36,
+          "src": "/media/interests/tdd/36.webp"
+        },
+        {
+          "w": 40,
+          "src": "/media/interests/tdd/40.webp"
+        },
+        {
+          "w": 48,
+          "src": "/media/interests/tdd/48.webp"
+        },
+        {
+          "w": 64,
+          "src": "/media/interests/tdd/64.webp"
+        },
+        {
+          "w": 72,
+          "src": "/media/interests/tdd/72.webp"
+        }
+      ],
+      "png": [
+        {
+          "w": 24,
+          "src": "/media/interests/tdd/24.png"
+        },
+        {
+          "w": 32,
+          "src": "/media/interests/tdd/32.png"
+        },
+        {
+          "w": 36,
+          "src": "/media/interests/tdd/36.png"
+        },
+        {
+          "w": 40,
+          "src": "/media/interests/tdd/40.png"
+        },
+        {
+          "w": 48,
+          "src": "/media/interests/tdd/48.png"
+        },
+        {
+          "w": 64,
+          "src": "/media/interests/tdd/64.png"
+        },
+        {
+          "w": 72,
+          "src": "/media/interests/tdd/72.png"
+        }
+      ]
+    }
+  }
+}

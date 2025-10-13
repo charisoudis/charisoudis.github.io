@@ -1,0 +1,290 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Athanasios Charisoudis",
+    "label": "Research Engineer",
+    "email": "athanasios.charisoudis@ieee.org",
+    "url": "https://charisoudis.com",
+    "summary": "Research Engineer at Hochschule Luzern (HSLU) focusing on dynamic 3D representations, metric deep learning, and motion recovery. M.Sc. in Machine Learning (KTH) and Diploma in ECE (AUTH).",
+    "location": {
+      "city": "Rotkreuz",
+      "region": "Canton Zug",
+      "countryCode": "CH",
+      "country": "Switzerland"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "charisoudis",
+        "url": "https://github.com/charisoudis"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "charisoudis",
+        "url": "https://www.linkedin.com/in/charisoudis"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Hochschule Luzern (HSLU)",
+      "position": "Research Engineer",
+      "location": "Rotkreuz, Switzerland",
+      "startDate": "2024-04",
+      "summary": "Working on volumetric 3D human representations. Currently trying to make Gaussian splats train fast and deform realistically. Advised by Prof. Aljosa Smolic.",
+      "highlights": [
+        "Advisor: Prof. Aljosa Smolic (projects: TRANSMIXR, FaVoRe, HEAT)",
+        "Accelerated training and realistic deformations for Gaussian Splatting pipelines",
+        "Designed & operated a multiview RGB-D capture pipeline with calibration, synchronization and live previews"
+      ]
+    },
+    {
+      "name": "KTH Royal Institute of Technology",
+      "position": "Research Engineer & Teaching Assistant",
+      "location": "Stockholm, Sweden",
+      "startDate": "2022-02",
+      "endDate": "2023-02",
+      "summary": "3D human-interaction modeling and TA for AI/ML courses.",
+      "highlights": [
+        "Research Engineer (HiSS Project) — Advisor: Prof. Hedvig Kjellström",
+        "TA — DD2380 Artificial Intelligence (Search, HMMs, Decision Theory, RL)",
+        "TA — DD2434 Advanced Machine Learning (Probabilistic ML, GMs, VI, GNNs)",
+        "TA — DD1420 Foundations of Machine Learning (Probabilistic ML, VI, DL)"
+      ]
+    },
+    {
+      "name": "SCANIA Group",
+      "position": "Research Intern, Autonomous Systems R&D",
+      "location": "Södertälje, Sweden",
+      "startDate": "2022-06",
+      "endDate": "2022-09",
+      "summary": "Data-driven Scenario-Based Validation (SBV) for Autonomous Driving stacks: 3D DL perception to traffic scenario identification and edge-case analysis."
+    },
+    {
+      "name": "Eurotechnik Ltd",
+      "position": "Full-Stack Developer — Short Engagement",
+      "location": "Thessaloniki, Greece",
+      "startDate": "2023-07",
+      "endDate": "2023-08",
+      "summary": "Extended internal web systems; developed an Order Management System with OR methods (stock cutting, integer programming)."
+    },
+    {
+      "name": "Eurotechnik Ltd",
+      "position": "Full-Stack Developer",
+      "location": "Thessaloniki, Greece",
+      "startDate": "2015-03",
+      "endDate": "2020-11",
+      "summary": "Created a custom CRM + ERP and CMS in Laravel (LAMP), deployed on dedicated on-prem infrastructure. Administered exhibitions and company graphics."
+    }
+  ],
+  "education": [
+    {
+      "institution": "École Polytechnique Fédérale de Lausanne (EPFL)",
+      "area": "Signal Processing Laboratory 4 (LTS4)",
+      "studyType": "External PhD Fellow (EDEE)",
+      "startDate": "2024-09",
+      "endDate": "2025-11",
+      "summary": "External doctoral-level fellow in EDEE, EPFL. Focusing on 3D Vision and Metric Deep Learning, under the joint advise of Prof. Aljosa Smolic (HSLU) and Prof. Pascal Frossard (EPFL).",
+      "links": []
+    },
+    {
+      "institution": "KTH Royal Institute of Technology",
+      "area": "Machine Learning",
+      "studyType": "M.Sc.",
+      "startDate": "2021",
+      "endDate": "2024",
+      "summary": "Master's studies focused on Machine Learning. Emphasis on Computer Vision and Graphics with Deep Learning.\n\nMaster's Project: Monocular Dynamic Motion Capture: A Regression-Optimization Hybrid Approach — Supervisor: Prof. Hedvig Kjellström",
+      "links": [
+        {
+          "label": "Thesis Report",
+          "href": "/files/mdmc-thesis-report.pdf"
+        },
+        {
+          "label": "Thesis Presentation",
+          "href": "/files/mdmc-thesis-presentation.pdf"
+        }
+      ]
+    },
+    {
+      "institution": "Aristotle University of Thessaloniki",
+      "area": "Electrical & Computer Engineering",
+      "studyType": "Diploma (MEng equivalent)",
+      "startDate": "2015",
+      "endDate": "2021",
+      "summary": "5-year ECE diploma (B.Sc. + M.Sc. equivalent). Final GPA: 8.87/10.00.\n\nDiploma Thesis: Generative Adversarial Networks for pose and style selection in fashion design applications — Supervisor: Prof. Pericles Mitkas",
+      "links": [
+        {
+          "label": "Thesis Report",
+          "href": "/files/gans-thesis-report.pdf"
+        },
+        {
+          "label": "Thesis Presentation",
+          "href": "/files/gans-thesis-presentation.pdf"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "very_strong",
+      "keywords": [
+        "Deep Learning (PyTorch)",
+        "TDD",
+        "Servers setup & management",
+        "ROS",
+        "Systems Programming"
+      ]
+    },
+    {
+      "name": "OpenGL",
+      "level": "strong",
+      "keywords": [
+        "PyOpenGL",
+        "PyRender",
+        "pyglet"
+      ]
+    },
+    {
+      "name": "MATLAB",
+      "level": "very_strong",
+      "keywords": [
+        "DL Toolbox (R2020)",
+        "Robotics (Peter Corke)",
+        "Fuzzy Systems",
+        "Audio Coding",
+        "Adaptive Signal Processing",
+        "Control Systems"
+      ]
+    },
+    {
+      "name": "C (Parallel)",
+      "level": "strong",
+      "keywords": [
+        "PThreads",
+        "OpenMP",
+        "MPI",
+        "CUDA"
+      ]
+    },
+    {
+      "name": "C (OS)",
+      "level": "medium",
+      "keywords": [
+        "Unix"
+      ]
+    },
+    {
+      "name": "Java",
+      "level": "strong",
+      "keywords": [
+        "UDP/TCP",
+        "Async IO/NIO",
+        "OOP",
+        "Algorithms & Data Structures"
+      ]
+    },
+    {
+      "name": "PHP",
+      "level": "very_strong",
+      "keywords": [
+        "Laravel",
+        "LAMP"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "very_strong",
+      "keywords": [
+        "Production schemas (eurotechnik.gr, admin.eurotechnik.gr, ECESCON 11, Labyrinth)"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "very_strong",
+      "keywords": [
+        "600+ contributions/year (avg)"
+      ]
+    },
+    {
+      "name": "Assembly",
+      "level": "medium",
+      "keywords": [
+        "MIPS32",
+        "ATMEL AVR",
+        "ARMv6"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "GANs Specialization (Coursera) — 3-course specialization",
+      "date": "2020",
+      "issuer": "Coursera",
+      "url": "https://coursera.org/share/7507bf8987c77a092bc35aa2842258cc"
+    },
+    {
+      "name": "IELTS — overall band 8.0/9.0",
+      "date": "2021",
+      "issuer": "University of Cambridge",
+      "url": "https://drive.google.com/file/d/1-mUUe4SRLn006Chs4AyI-zNi--mi4zO8/view?usp=share_link"
+    },
+    {
+      "name": "IEEEXtreme 10.0 — Finished 429/2500",
+      "date": "2016",
+      "issuer": "IEEE"
+    },
+    {
+      "name": "C2 Proficiency in English — grade B",
+      "date": "2009",
+      "issuer": "University of Michigan",
+      "url": "https://drive.google.com/file/d/1vGUjo06ZpYZIHFWNAdnny83v9E0vGVEE/view?usp=sharing"
+    }
+  ],
+  "courses": [
+    {
+      "name": "Machine Learning for Inverse Graphics",
+      "institution": "Sitzmann et al.",
+      "url": "https://www.scenerepresentations.org/courses/inverse-graphics/",
+      "image": "moocs/ml4ig"
+    },
+    {
+      "name": "GANs Specialization",
+      "institution": "Coursera",
+      "url": "https://coursera.org/share/7507bf8987c77a092bc35aa2842258cc",
+      "image": "moocs/gans-specialization-coursera"
+    },
+    {
+      "name": "CS236: Deep Generative Models",
+      "institution": "Stanford",
+      "url": "https://deepgenerativemodels.github.io",
+      "image": "moocs/cs236-fall-2019"
+    },
+    {
+      "name": "CS231n: Convolutional Neural Networks for Visual Recognition",
+      "institution": "Stanford",
+      "url": "http://cs231n.stanford.edu/2017/",
+      "image": "moocs/cs231n-spring-2017"
+    },
+    {
+      "name": "Nonlinear Systems",
+      "institution": "MIT — J.J.E. Slotine",
+      "url": "https://web.mit.edu/nsl/www/",
+      "image": "moocs/nonlinear-systems"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Greek",
+      "fluency": "Native or Bilingual"
+    },
+    {
+      "language": "English",
+      "fluency": "C2 / Professional"
+    }
+  ],
+  "meta": {
+    "lastModified": "2025-10-13",
+    "theme": "professional"
+  }
+}
