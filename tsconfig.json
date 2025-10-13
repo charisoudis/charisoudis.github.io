@@ -37,8 +37,10 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
+    "**/*.mdx",
     ".contentlayer/generated",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "**/*.d.ts"
   ],
   "exclude": [
     "node_modules"
