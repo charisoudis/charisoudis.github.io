@@ -2,11 +2,14 @@ import {withContentlayer} from 'next-contentlayer'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-        remotePatterns: [
-            {protocol: 'https', hostname: '**'}
-        ]
-    },
+    output: 'export',
+    images: { unoptimized: true },
+    trailingSlash: true, // helps with GH Pages’ static hosting
+    // images: {
+    //     remotePatterns: [
+    //         {protocol: 'https', hostname: '**'}
+    //     ]
+    // },
     experimental: {
         serverActions: {
             allowedOrigins: ['*']
