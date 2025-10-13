@@ -25,5 +25,4 @@ const nextConfig = {
     },
 }
 
-// dummy export to enable .mjs extension
 export default withContentlayer(nextConfig)
