@@ -36,12 +36,6 @@ jobs:
           node-version: 20
           cache: 'pnpm'
 
-      - name: Scan for Server Actions (debug)
-        run: |
-          grep -R "^['\"]use server['\"]" -n || true
-          grep -R "export const dynamic = 'force-dynamic'" -n || true
-          grep -R "route\.ts$" -n app || true
-
       - name: Install deps
         run: pnpm i --frozen-lockfile
 
@@ -49,11 +43,12 @@ jobs:
         if: ${{ hashFiles('scripts/build-images.ts') != '' }}
         run: pnpm run images:build
 
+      # Use a stable Next.js for static export in CI (doesn't require changing your package.json)
       - name: Build (Next.js)
-        run: pnpm run build
+        run: npx -y next@14.1.4 build
 
       - name: Export static HTML
-        run: pnpm run export
+        run: npx -y next@14.1.4 export -o out
 
       - name: Add .nojekyll
         run: echo > out/.nojekyll
