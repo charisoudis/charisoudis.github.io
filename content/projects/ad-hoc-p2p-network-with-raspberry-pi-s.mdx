@@ -1,9 +1,22 @@
 ---
-title: "Ad-hoc P2P Network with Raspberry Pi\u2019s"
-description: "Threaded real-time client-server application to log and display events."
-year: 2019
-featured: false
+title: "Ad-hoc P2P Network with Raspberry Pi's"
+date: 2019-10-10
+summary: Threaded real-time client-server application to log and display events.
+authors: ["Athanassios Charisoudis"]
 tags: ["C99", "POSIX threads", "Networking"]
-links: { url: "https://github.com/auth-ece-projects-charisoudis/embedded-and-real-time-systems" }
+featured: false
+supervisor: "Prof. Nikolaos Pitsianis"
+projectType: "course"
+codeUrl: "https://github.com/auth-ece-projects-charisoudis/embedded-and-real-time-systems"
+report: "/files/reports/embedded-and-real-time-systems-report.pdf"
 ---
-[Project link](https://github.com/auth-ece-projects-charisoudis/embedded-and-real-time-systems)
+
+
+## Ad-hoc peer-to-peer wireless communications using Raspberry Pi's
+The setup consists of a number of wifi-capable Raspberry Pi Zero's each of which may bound its TCP sockets to a specified IP address with the student's number (SSN) as the last digits. On each of them runs the same app that on initialization creates three POSIX threads, one to listen for inbound connection requests (server thread) one to search via polling for other active devices in wireless range, and the 3rd which produces a message with a random recipient at a random interval.
+
+When devices connect, they exchange messages. A device sends to the other device all the messages not intended for it and receives the corresponding messages from the other device. The purpose is for a message to reach its recipient after zero or more intermediate recipients. The final recipient stores its messages in an internal inbox (in memory).
+
+A C99 app was developed and cross-compiled to run inside each of the Raspberry Pi that was involved in the experimental setup. We used TCP sockets to handle actual information exchange and time sync between devices. All devices kept communication event logs from which useful communication statistics were extracted. The communication statistics for each of the involved devices were elegantly presented using a custom Javascript application that was also developed for the purposes of the course project.
+
+

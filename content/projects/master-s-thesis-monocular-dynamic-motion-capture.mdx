@@ -1,16 +1,46 @@
 ---
 title: "Master's Thesis \u2014 Monocular Dynamic Motion Capture"
-description: "Regression-optimization hybrid for monocular dynamic motion capture."
-year: 2024
+summary: "A Regression-optimization hybrid approach for monocular dynamic motion capture."
+date: 2024-11-30
+authors: ["Athanassios Charisoudis"]
 featured: true
-tags: ["Computer Vision", "3D Motion", "Optimization", "PyTorch"]
-links: { url: "https://charisoudis.com/pdf/mdmc-thesis-report.pdf" }
+tags: ["Motion Capture", "3D Vision", "Optimization", "Computer Vision"]
+supervisor: "Prof. Hedvig Kjellström"
+projectType: "course"
+codeUrl: ""
+report: "/files/reports/mdmc-thesis-report.pdf"
 ---
-[Project link](https://charisoudis.com/pdf/mdmc-thesis-report.pdf)
-
-<ModelViewer src="/models/scene.glb" />
 
 **Highlights**
-- Supervisor: Prof. Hedvig Kjellström
-- Combines learned global motion regression with hand-crafted optimization for dynamic setups.
-- Publication of thesis findings is ongoing.
+- Sota / close-to-sota results in monocular dynamic motion capture.
+- Combines learned global motion regression with hand-crafted optimization for in-the-wild setups.
+- Publication of thesis findings is *ongoing*. Code will be released upon publication.
+
+### Abstract
+
+Recovering 3D human motion from monocular video sequences poses a significant
+challenge in computer vision, particularly when the camera itself is in motion.
+The ambiguity introduced by dynamic recording setups necessitates methods to
+lift camera-local 3D human motions into a consistent, global world frame. This
+thesis proposes a novel, modular approach to monocular multi-person motion
+capture, combining regression techniques and global optimization for enhanced
+accuracy.
+
+Our pipeline for 3D motion recovery begins with image-based detection to localize
+multiple human subjects within each frame. We then fit parametric human body
+models (SMPL) to estimate the subjects’ 3D poses, resulting in camera-local human
+pose tracks. To recover camera motion, we implement a visual odometry (VO)
+algorithm. Next, we port a state-of-the-art global motion regression network to
+initially lift camera-local motions into a fixed world frame. Finally, we apply a
+global optimization process guided by re-projection quality, motion realism, and
+motion smoothness to refine the lifted motion estimates within the global 3D world
+frame.
+
+The core contribution of this thesis is the demonstration of the effectiveness of
+combining global motion regression with optimization in a chained manner. Ablation
+studies confirm that this hybrid approach yields superior results compared to the
+isolated use of either regression or optimization techniques. Our experimental results
+show that the proposed method achieves performance closely aligned with the state of-the-art in SMPL-based human motion recovery.
+
+### Keywords
+motion recovery, monocular, dynamic, local-to-global motion lifting, optimization

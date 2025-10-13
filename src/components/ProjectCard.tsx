@@ -18,7 +18,7 @@ export function ProjectCard({project}: { project: Project }) {
                 <h3 className="text-xl font-semibold text-kth-marine">
                     <Link href={`/projects/${project.slug}`}>{project.title}</Link>
                 </h3>
-                <p className="text-sm text-zinc-700 mt-1">{project.description}</p>
+                <p className="text-sm text-zinc-700 mt-1">{project.summary}</p>
                 {project.tags?.length ? (
                     <div className="mt-2 flex flex-wrap gap-2">
                         {project.tags.map(t => <span key={t} className="text-xs rounded-full border px-2 py-0.5">{t}</span>)}
