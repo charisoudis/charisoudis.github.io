@@ -61,7 +61,7 @@ export default async function CVPage() {
     return (
         <div className="site-shell">
             <header className="mb-6 flex items-start justify-between gap-4">
-                <h1 className="text-xl md:text-2xl font-extrabold text-kth-marine">CV</h1>
+                <h1 className="text-2xl md:text-3xl font-extrabold text-kth-marine">CV</h1>
                 <a
                     href={withBase('/files/resume.pdf')}
                     download

@@ -3,7 +3,6 @@ import {CopyBibButton} from './CopyBibButton'
 import {Picture} from "@/components/Picture";
 
 export function PublicationItem({pub}: { pub: Pub }) {
-    console.log(pub.id);
     return (
         <li className="flex gap-4 items-start">
             <div className="relative w-28 h-28 shrink-0 rounded-xl overflow-hidden bg-white">
