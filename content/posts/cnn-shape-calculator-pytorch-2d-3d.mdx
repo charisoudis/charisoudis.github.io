@@ -1,0 +1,46 @@
+---
+title: CNN shape calculator for PyTorch (2D & 3D)
+date: 2020-11-01
+summary: Compute output shapes and parameter counts for Conv/ConvTranspose/Pool layers in 2D and 3D with live updates.
+tags: [pytorch, cnn, tooling]
+---
+
+import CNNCalculator from '@/components/mdx/CNNCalculator'
+
+
+This is a small, practical tool to avoid off-by-one mistakes when designing CNNs.
+You set the input tensor once, add layers, tweak hyperparameters, and see the shapes and parameter counts update live.
+
+### Why this is useful
+
+- Quick shape checks while sketching an architecture
+- Early catch for invalid settings (e.g., output becomes ≤ 0)
+- Fast parameter estimates per layer
+
+### What it supports
+
+- **2D:** `nn.Conv2d`, `nn.ConvTranspose2d`, `*Pool2d`
+- **3D:** `nn.Conv3d`, `nn.ConvTranspose3d`, `*Pool3d`
+- Output padding for transpose convs
+- Per-layer input/output summary and learnable parameter counts
+- Add/remove layers, instant re-compute
+
+> Notes:
+> - Dilation is assumed to be 1.
+> - Parameter counts shown exclude bias. If you use `bias=True`, add `out_channels`.
+
+### Formulas
+
+For a single spatial dimension:
+
+- **Conv / Pool**
+`out = floor((in + 2*pad − (kernel − 1) − 1) / stride + 1)`
+
+- **ConvTranspose**
+`out = (in − 1) * stride − 2*pad + (kernel − 1) + output_padding + 1`
+
+These apply independently to each dimension (H and W for 2D; D, H, W for 3D).
+
+---
+
+<CNNCalculator />

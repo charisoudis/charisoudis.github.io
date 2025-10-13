@@ -66,7 +66,7 @@ export default async function CVPage() {
                     href={withBase('/files/resume.pdf')}
                     download
                     aria-label="Download CV as PDF"
-                    className="inline-flex items-center gap-2 rounded-md border bg-kth-light px-3 py-1.5 text-sm"
+                    className="inline-flex items-center gap-2 rounded-md border bg-kth-light hover:bg-kth-light/70 px-3 py-1.5 text-sm"
                     title="Download CV (PDF)"
                 >
                     <FileDown className="h-4 w-4"/>
@@ -84,7 +84,7 @@ export default async function CVPage() {
                             {gh?.url && (
                                 <span>
                                     GitHub:{' '}
-                                    <a href={gh.url} target="_blank" rel="noreferrer" className="font-semibold link-underline">
+                                    <a href={gh.url} target="_blank" rel="noreferrer" className="font-semibold text-link link-underline">
                                         {gh.username || gh.url.split('/').pop()}
                                     </a>
                                 </span>
@@ -94,7 +94,7 @@ export default async function CVPage() {
                             {li?.url && (
                                 <span>
                                   LinkedIn:{' '}
-                                    <a href={li.url} target="_blank" rel="noreferrer" className="font-semibold link-underline">
+                                    <a href={li.url} target="_blank" rel="noreferrer" className="font-semibold text-link link-underline">
                                         {li.username || li.url.split('/').pop()}
                                     </a>
                                 </span>
@@ -102,7 +102,7 @@ export default async function CVPage() {
                         </div>
                         {basics.email && (
                             <div>
-                                Email: <a href={`mailto:${basics.email}`} className="font-semibold link-underline">{basics.email}</a>
+                                Email: <a href={`mailto:${basics.email}`} className="font-semibold text-link link-underline">{basics.email}</a>
                             </div>
                         )}
                         <div>
@@ -134,7 +134,7 @@ export default async function CVPage() {
                                         {e.links.map((l, j) => (
                                             <a
                                                 key={j}
-                                                className="inline-flex items-center gap-1 rounded-md border border-zinc-200 bg-kth-light px-3 py-1.5 text-sm hover:bg-kth-sand/70"
+                                                className="inline-flex items-center gap-1 rounded-md border border-zinc-200 bg-kth-light px-3 py-1.5 text-sm hover:bg-kth-light/70"
                                                 href={withBase(l.href)}
                                                 target="_blank"
                                                 rel="noreferrer"
