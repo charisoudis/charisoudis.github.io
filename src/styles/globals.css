@@ -49,6 +49,7 @@ a {
     transition: background-size .25s ease;
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
+    cursor: pointer;
 }
 
 a:hover {
