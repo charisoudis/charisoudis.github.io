@@ -10,6 +10,11 @@ import {PublicationItem} from "@/components/PublicationItem";
 import {withBase} from "@/lib/paths";
 import type {Metadata} from 'next'
 
+const SELECTED_PUB_IDS = [
+    'charisoudis2025cvmp',
+    'charisoudis2023smae'
+];
+
 export const metadata: Metadata = {title: {absolute: 'Athanasios Charisoudis'}}
 
 export default async function Home() {
@@ -17,7 +22,8 @@ export default async function Home() {
         .filter(p => p.featured)
         .sort((a, b) => (b.date ?? '').localeCompare(a.date ?? ''))
         .slice(0, 4)
-    const pubs = (await loadPublications()).slice(0, 3)
+    const allPubs = await loadPublications();
+    const selectedPubs = allPubs.filter(p => SELECTED_PUB_IDS.includes(p.id));
     const interests = (resumeData as any)?.interests?.flatMap((i: any) => i.keywords || [i.name]).filter(Boolean) || []
 
     return (
@@ -99,7 +105,7 @@ export default async function Home() {
 
             <Section title="Selected Publications">
                 <ul className="grid gap-6">
-                    {pubs.map(p => (
+                    {selectedPubs.map(p => (
                         <PublicationItem key={p.id} pub={p}/>
                     ))}
                 </ul>
