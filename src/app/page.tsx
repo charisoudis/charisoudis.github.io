@@ -37,12 +37,11 @@ export default async function Home() {
 
                     <p className="mt-3 text-lg leading-relaxed">
                         I’m a research engineer at Hochschule Luzern working on human-centric computer vision, including dynamic 3D representations,
-                        metric deep learning, and motion recovery, under the advise of <a href={"https://www.hslu.ch/en/lucerne-university-of-applied-sciences-and-arts/about-us/people-finder/profile/?pid=5280"} target={"_blank"} className={"text-link"}>Prof. Aljosa Smolic</a>. I like turning research ideas into fast, practical tools that people can use.
+                        metric deep learning, and motion recovery, under the advise of <a href={"https://www.hslu.ch/en/lucerne-university-of-applied-sciences-and-arts/about-us/people-finder/profile/?pid=5280"} target={"_blank"} className={"text-link"} rel="noopener noreferrer">Prof. Aljosa Smolic</a>. I like turning research ideas into fast, practical tools that people can use.
                     </p>
 
                     <p className="mt-3 text-lg leading-relaxed">
-                        Before this, I completed a MSc in Machine Learning at KTH Royal Institute of Technology, where I worked with <a href={"https://www.kth.se/profile/hedvig"} target={"_blank"} className={"text-link"}>Prof. Hedvig Kjellström</a>. Earlier, I earned a Diploma in Electrical &amp; Computer Engineering from Aristotle University of Thessaloniki, where I worked with <a href={"https://ece.auth.gr/en/staff/pericles-mitkas/"} target={"_blank"}
-                                                                                                                                                                                                                                                                                                                                                                                                 className={"text-link"}>Prof. Pericles Mitkas</a>. I’m based in Rotkreuz, Switzerland, while my
+                        Before this, I completed a MSc in Machine Learning at KTH Royal Institute of Technology, where I worked with <a href={"https://www.kth.se/profile/hedvig"} target={"_blank"} className={"text-link"} rel="noopener noreferrer">Prof. Hedvig Kjellström</a>. Earlier, I earned a Diploma in Electrical &amp; Computer Engineering from Aristotle University of Thessaloniki, where I worked with <a href={"https://ece.auth.gr/en/staff/pericles-mitkas/"} target={"_blank"} className={"text-link"} rel="noopener noreferrer">Prof. Pericles Mitkas</a>. I’m based in Rotkreuz, Switzerland, while my
                         hometown is Thessaloniki, Greece.
                     </p>
 
