@@ -24,7 +24,7 @@ export default async function Home() {
         .slice(0, 4)
     const allPubs = await loadPublications();
     const selectedPubs = allPubs.filter(p => SELECTED_PUB_IDS.includes(p.id));
-    const interests = (resumeData as any)?.interests?.flatMap((i: any) => i.keywords || [i.name]).filter(Boolean) || []
+    const skills = resumeData.skills?.flatMap((s) => s.keywords || [s.name]).filter(Boolean) || [];
 
     return (
         <div className="space-y-12 md:space-y-20">
@@ -92,13 +92,13 @@ export default async function Home() {
                         </a>
                     </div>
 
-                    {interests.length ? (
-                        <div className="mt-6 flex flex-wrap gap-2">
-                            {interests.slice(0, 12).map((k: string, i: number) => (
-                                <span key={i} className="text-xs rounded-full border px-2 py-0.5">{k}</span>
-                            ))}
-                        </div>
-                    ) : null}
+                    {/*{skills.length ? (*/}
+                    {/*    <div className="mt-6 flex flex-wrap gap-2">*/}
+                    {/*        {skills.slice(0, 12).map((k: string, i: number) => (*/}
+                    {/*            <span key={i} className="text-xs rounded-full border px-2 py-0.5">{k}</span>*/}
+                    {/*        ))}*/}
+                    {/*    </div>*/}
+                    {/*) : null}*/}
                 </div>
             </section>
 
