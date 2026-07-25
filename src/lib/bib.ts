@@ -17,6 +17,7 @@ export type Pub = {
     type?: string
     bibtex?: string
     image?: string
+    note: string | undefined;
 }
 
 function formatAuthors(names: any[]): string {
@@ -50,8 +51,9 @@ export async function loadPublications(): Promise<Pub[]> {
         const pdf = item.PDF || item.pdf
         const code = item.CODE || item.code
         const bibtex = new Cite(item).format('bibtex')
+        const note = item.note || ''
 
-        return {id, title, authors, year, venue, doi, url, pdf, code, type: item.type, bibtex}
+        return {id, title, authors, year, venue, doi, url, pdf, code, type: item.type, bibtex, note}
     })
 
     const imagesMapPath = path.join(process.cwd(), 'src', 'content-maps', 'pub-images.json')

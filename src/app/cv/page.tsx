@@ -63,7 +63,7 @@ export default async function CVPage() {
             <header className="mb-6 flex items-start justify-between gap-4">
                 <h1 className="text-2xl md:text-3xl font-extrabold text-kth-marine">CV</h1>
                 <a
-                    href={withBase('/files/resume.pdf')}
+                    href={withBase('/files/resume.pdf') + "?t=07_2026"}
                     download
                     aria-label="Download CV as PDF"
                     className="inline-flex items-center gap-2 rounded-md border bg-kth-light hover:bg-kth-light/70 px-3 py-1.5 text-sm"

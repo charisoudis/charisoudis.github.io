@@ -46,7 +46,7 @@ export default async function Home() {
 
                     <div className="mt-5 flex flex-wrap items-center gap-3">
                         <a
-                            href={withBase('/files/resume.pdf')}
+                            href={withBase('/files/resume.pdf') + "?t=07_2026"}
                             download
                             title="Download CV"
                             aria-label="Download CV"
